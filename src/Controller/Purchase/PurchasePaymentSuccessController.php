@@ -6,10 +6,12 @@ namespace App\Controller\Purchase;
 
 use App\Cart\CartService;
 use App\Entity\Purchase;
+use App\Event\PurchaseSuccessEvent;
 use App\Repository\PurchaseRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -23,9 +25,10 @@ class PurchasePaymentSuccessController extends AbstractController
      * @param PurchaseRepository $purchaseRepository
      * @param EntityManagerInterface $em
      * @param CartService $cartService
+     * @param EventDispatcherInterface $dispatcher
      * @return RedirectResponse|Response
      */
-    public function success($id, PurchaseRepository $purchaseRepository, EntityManagerInterface $em, CartService $cartService)
+    public function success($id, PurchaseRepository $purchaseRepository, EntityManagerInterface $em, CartService $cartService, EventDispatcherInterface $dispatcher)
     {
         $purchase = $purchaseRepository->find($id);
         if (!$purchase ||
@@ -39,6 +42,10 @@ class PurchasePaymentSuccessController extends AbstractController
             $em->flush();
 
             $cartService->empty();
+            //event
+            $purchaseEvent = new PurchaseSuccessEvent($purchase);
+            $dispatcher->dispatch($purchaseEvent, 'purchase.success');
+
             $this->addFlash('success', "Votre commande à bien été payée");
             return $this->redirectToRoute('purchase_index');
 
