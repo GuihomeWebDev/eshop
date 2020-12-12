@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d42dc1-de37-42e0-b4b0-be51a83ed9eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Event/PurchaseSuccessEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventDispatcher/PrenomListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventDispatcher/PrenomSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EventDispatcher/PurchaseSuccessEmailSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Event/ProductViewEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EventDispatcher/ProductViewEmailSubscriber.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Purchase/PurchasePaymentSuccessController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Purchase/PurchasePaymentSuccessController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,7 @@
       <workItem from="1607593902964" duration="17152000" />
       <workItem from="1607672401833" duration="21194000" />
       <workItem from="1607754213087" duration="1237000" />
-      <workItem from="1607761744034" duration="20802000" />
+      <workItem from="1607761744034" duration="23186000" />
     </task>
     <servers />
   </component>
