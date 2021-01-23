@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d42dc1-de37-42e0-b4b0-be51a83ed9eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/Listener/CategorySlugListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doctrine/Listener/ProductSlugListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Purchase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Purchase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/purchase/PurchasePersister.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/purchase/PurchasePersister.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +171,14 @@
       <workItem from="1607672401833" duration="21194000" />
       <workItem from="1607754213087" duration="1237000" />
       <workItem from="1607761744034" duration="23186000" />
-      <workItem from="1607841639301" duration="9134000" />
+      <workItem from="1607841639301" duration="9978000" />
+      <workItem from="1607873273860" duration="626000" />
+      <workItem from="1607891479601" duration="480000" />
+      <workItem from="1607937196746" duration="582000" />
+      <workItem from="1607964630829" duration="21000" />
+      <workItem from="1608137719910" duration="619000" />
+      <workItem from="1608138354271" duration="2207000" />
+      <workItem from="1608556017474" duration="910000" />
     </task>
     <servers />
   </component>
