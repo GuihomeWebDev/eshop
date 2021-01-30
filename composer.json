@@ -90,8 +90,7 @@
             "php bin/console doctrine:migrations:migrate --no-interaction",
             "php bin/console doctrine:fixtures:load --no-interaction"
         ],
-        "post-install-cmd": [
-            "auto-scripts",
+        "post-install-cmd": [            
             "database-setup"
         ],
         "post-update-cmd": [
