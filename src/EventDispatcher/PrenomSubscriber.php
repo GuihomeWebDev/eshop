@@ -25,8 +25,9 @@ class PrenomSubscriber implements EventSubscriberInterface
     {
         return [
           'kernel.request' => 'addPrenomToAtttributes',
-          'kernel.controller' => 'test',
-          'kernel.response' => 'testing',
+          //! j'ai commentais ces 2 lignes car les dumps sur la prod s'exécutes avant la création de la séssion
+        //   'kernel.controller' => 'test',
+        //   'kernel.response' => 'testing',
         ];
     }
 }
