@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cb28a43f770601c514e191291a68d2d",
+    "content-hash": "1f735c512111dfe35771b7ad68543be2",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -7990,16 +7990,16 @@
         },
         {
             "name": "symfony/debug-bundle",
-            "version": "v5.1.9",
+            "version": "v5.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug-bundle.git",
-                "reference": "183a36bdb251eeeeff640ffbceea3403ac5c8d40"
+                "reference": "cc01b42c54ca5a3eed3e48f0c2327e1b3d46c16b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/183a36bdb251eeeeff640ffbceea3403ac5c8d40",
-                "reference": "183a36bdb251eeeeff640ffbceea3403ac5c8d40",
+                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/cc01b42c54ca5a3eed3e48f0c2327e1b3d46c16b",
+                "reference": "cc01b42c54ca5a3eed3e48f0c2327e1b3d46c16b",
                 "shasum": ""
             },
             "require": {
@@ -8045,10 +8045,10 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
-            "description": "Symfony DebugBundle",
+            "description": "Provides a tight integration of the Symfony Debug component into the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug-bundle/tree/v5.1.9"
+                "source": "https://github.com/symfony/debug-bundle/tree/v5.1.11"
             },
             "funding": [
                 {
@@ -8064,7 +8064,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-24T12:01:57+00:00"
+            "time": "2021-01-10T16:29:19+00:00"
         },
         {
             "name": "symfony/dom-crawler",
